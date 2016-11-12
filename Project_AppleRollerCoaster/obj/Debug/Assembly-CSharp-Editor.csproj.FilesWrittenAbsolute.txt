@@ -27,3 +27,4 @@
 /Users/Vin/Desktop/Unity Projects/Project_AppleRollerCoaster/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/Vin/Desktop/Unity Projects/Project_AppleRollerCoaster/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/Vin/Desktop/Unity Projects/Project_AppleRollerCoaster/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/Vin/Desktop/Unity Projects/Project_AppleRollerCoaster/Temp/bin/Debug/UnityEditor.WindowsStandalone.Extensions.dll

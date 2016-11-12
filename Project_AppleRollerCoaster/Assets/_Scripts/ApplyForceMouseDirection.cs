@@ -3,35 +3,39 @@ using System.Collections;
 
 public class ApplyForceMouseDirection : MonoBehaviour {
 
-	public float maxSpeed = 10.0f;
-	public float driftSpeed = 3.0f;
-	public float accelerationAdd = 4.0f;
-	public float accelerationSubtract = 1.0f;
+	public float scale = 1.0f;
 
 	private Rigidbody rb;
-	private float accelSpeed3D;
+	private float distToGround;
 
 	void Awake() {
 		if (gameObject.GetComponent<Rigidbody> ()) {
 			rb = gameObject.GetComponent<Rigidbody> ();
 		}
+
+		if (gameObject.GetComponent<Collider> ()) {
+			distToGround = gameObject.GetComponent<Collider> ().bounds.extents.y;
+		} else {
+			distToGround = 0.5f;
+		}
 	}
 
 	void FixedUpdate () {
+		if (Input.GetButton("Fire1") && IsGrounded()) {
+			
+			Ray mouseRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+			RaycastHit mouseHit;
 
-		if (Input.GetMouseButtonDown (0)) {
-			Vector2 mouse = new Vector2 (Input.mousePosition.x, Input.mousePosition.y);
-
-			Ray ray;
-			ray = Camera.main.ScreenPointToRay (mouse);
-			RaycastHit hit;
-
-			if (Physics.Raycast (ray, out hit)) {
-				Vector3 mouseDir = hit.point - gameObject.transform.position;
+			if (Physics.Raycast (mouseRay, out mouseHit)) {
+				Vector3 mouseDir = mouseHit.point - gameObject.transform.position;
 				mouseDir = mouseDir.normalized;
 
-				rb.AddForce (mouseDir * hit.distance);
+				rb.AddForce (mouseDir * (mouseHit.distance * scale));
 			}
 		}
+	}
+
+	bool IsGrounded() {
+		return Physics.Raycast (gameObject.transform.position, -Vector3.up, distToGround + 0.1f);
 	}
 }

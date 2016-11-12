@@ -1,11 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{6B783375-2401-AA57-F344-4CF02ED76582}") = "Project_AppleRollerCoaster", "Assembly-CSharp-firstpass.csproj", "{C20E3566-4F59-ACBD-F93A-85C91ED08AC9}"
-EndProject
 Project("{6B783375-2401-AA57-F344-4CF02ED76582}") = "Project_AppleRollerCoaster", "Assembly-CSharp.csproj", "{3873AB06-EFFE-AEA5-208F-E6D0CCF79DAB}"
-EndProject
-Project("{6B783375-2401-AA57-F344-4CF02ED76582}") = "Project_AppleRollerCoaster", "Assembly-CSharp-Editor.csproj", "{2B91F0D5-C7BF-CDF6-83F6-147D5AC3D371}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C20E3566-4F59-ACBD-F93A-85C91ED08AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C20E3566-4F59-ACBD-F93A-85C91ED08AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C20E3566-4F59-ACBD-F93A-85C91ED08AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C20E3566-4F59-ACBD-F93A-85C91ED08AC9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3873AB06-EFFE-AEA5-208F-E6D0CCF79DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3873AB06-EFFE-AEA5-208F-E6D0CCF79DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3873AB06-EFFE-AEA5-208F-E6D0CCF79DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3873AB06-EFFE-AEA5-208F-E6D0CCF79DAB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2B91F0D5-C7BF-CDF6-83F6-147D5AC3D371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2B91F0D5-C7BF-CDF6-83F6-147D5AC3D371}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2B91F0D5-C7BF-CDF6-83F6-147D5AC3D371}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2B91F0D5-C7BF-CDF6-83F6-147D5AC3D371}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
