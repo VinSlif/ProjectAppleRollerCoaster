@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 5da2167017afc4a0ea4756ca7321e058
+timeCreated: 1479265403
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: base
+    100002: base_1a
+    100004: base_1a1
+    100006: base_1b
+    100008: base_1b1
+    100010: base_1b2
+    100012: fall_1a_stick
+    100014: fall_1a_stick1
+    100016: Lvl_1
+    100018: //RootNode
+    100020: lvl_2
+    100022: Mushroom
+    100024: Mushroom1
+    100026: Mushroom10
+    100028: Mushroom2
+    100030: Mushroom3
+    100032: Mushroom4
+    100034: Mushroom5
+    100036: Mushroom6
+    100038: Mushroom7
+    100040: Mushroom8
+    100042: Mushroom9
+    100044: other_base
+    100046: other_base1
+    100048: other_base2
+    100050: other_base3
+    100052: Pre_Fall_1a_stick
+    100054: Pre_fall_1b_stick
+    100056: Upper_part_1b
+    400000: base
+    400002: base_1a
+    400004: base_1a1
+    400006: base_1b
+    400008: base_1b1
+    400010: base_1b2
+    400012: fall_1a_stick
+    400014: fall_1a_stick1
+    400016: Lvl_1
+    400018: //RootNode
+    400020: lvl_2
+    400022: Mushroom
+    400024: Mushroom1
+    400026: Mushroom10
+    400028: Mushroom2
+    400030: Mushroom3
+    400032: Mushroom4
+    400034: Mushroom5
+    400036: Mushroom6
+    400038: Mushroom7
+    400040: Mushroom8
+    400042: Mushroom9
+    400044: other_base
+    400046: other_base1
+    400048: other_base2
+    400050: other_base3
+    400052: Pre_Fall_1a_stick
+    400054: Pre_fall_1b_stick
+    400056: Upper_part_1b
+    2300000: base
+    2300002: base_1a
+    2300004: base_1a1
+    2300006: base_1b
+    2300008: base_1b1
+    2300010: base_1b2
+    2300012: fall_1a_stick
+    2300014: fall_1a_stick1
+    2300016: Mushroom
+    2300018: Mushroom1
+    2300020: Mushroom10
+    2300022: Mushroom2
+    2300024: Mushroom3
+    2300026: Mushroom4
+    2300028: Mushroom5
+    2300030: Mushroom6
+    2300032: Mushroom7
+    2300034: Mushroom8
+    2300036: Mushroom9
+    2300038: other_base
+    2300040: other_base1
+    2300042: other_base2
+    2300044: other_base3
+    2300046: Pre_Fall_1a_stick
+    2300048: Pre_fall_1b_stick
+    2300050: Upper_part_1b
+    3300000: base
+    3300002: base_1a
+    3300004: base_1a1
+    3300006: base_1b
+    3300008: base_1b1
+    3300010: base_1b2
+    3300012: fall_1a_stick
+    3300014: fall_1a_stick1
+    3300016: Mushroom
+    3300018: Mushroom1
+    3300020: Mushroom10
+    3300022: Mushroom2
+    3300024: Mushroom3
+    3300026: Mushroom4
+    3300028: Mushroom5
+    3300030: Mushroom6
+    3300032: Mushroom7
+    3300034: Mushroom8
+    3300036: Mushroom9
+    3300038: other_base
+    3300040: other_base1
+    3300042: other_base2
+    3300044: other_base3
+    3300046: Pre_Fall_1a_stick
+    3300048: Pre_fall_1b_stick
+    3300050: Upper_part_1b
+    4300000: base_1a
+    4300002: base_1b
+    4300004: fall_1a_stick
+    4300006: Upper_part_1b
+    4300008: Pre_fall_1b_stick
+    4300010: Pre_Fall_1a_stick
+    4300012: fall_1a_stick1
+    4300014: base
+    4300016: other_base
+    4300018: other_base1
+    4300020: base_1b1
+    4300022: Mushroom
+    4300024: Mushroom1
+    4300026: base_1b2
+    4300028: Mushroom2
+    4300030: Mushroom3
+    4300032: Mushroom4
+    4300034: Mushroom5
+    4300036: Mushroom6
+    4300038: Mushroom7
+    4300040: Mushroom8
+    4300042: Mushroom9
+    4300044: Mushroom10
+    4300046: other_base2
+    4300048: base_1a1
+    4300050: other_base3
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

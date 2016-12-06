@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/TechDemo.unity
+- path: Assets/_Scenes/Gold.unity
   isLoaded: 1
   isActive: 1

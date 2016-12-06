@@ -6,7 +6,9 @@ TagManager:
   tags:
   - Cam Pos
   - Cam Trigger Pos
+  - Invis Wall
   - Cam Trigger
+  - Track
   layers:
   - Default
   - TransparentFX
