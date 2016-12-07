@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: be193e3d10f3ac541913f62d46111b9c
-timeCreated: 1481066131
-licenseType: Pro
+timeCreated: 1481082753
+licenseType: Free
 SubstanceImporter:
   serializedVersion: 5
   materialInstances:
@@ -37,7 +37,7 @@ SubstanceImporter:
         texture: {instanceID: 0}
     - name: contrast
       value:
-        scalar[0]: 0
+        scalar[0]: -0.063
         scalar[1]: 0
         scalar[2]: 0
         scalar[3]: 0
@@ -100,7 +100,7 @@ SubstanceImporter:
         texture: {instanceID: 0}
     materialInformation:
       serializedVersion: 5
-      offset: {x: 0, y: 0}
+      offset: {x: 0.5, y: 0.5}
       scale: {x: 3, y: 3}
       generateMipmaps: 1
       generateAllOutputs: 0
@@ -113,12 +113,12 @@ SubstanceImporter:
         second:
           texture: {instanceID: 0}
           scale: {x: 3, y: 3}
-          offset: {x: 0, y: 0}
+          offset: {x: 0.5, y: 0.5}
       - first:
           name: _DetailAlbedoMap
         second:
           texture: {instanceID: 0}
-          scale: {x: 10, y: 10}
+          scale: {x: 5, y: 5}
           offset: {x: 0, y: 0}
       - first:
           name: _DetailMask
@@ -137,31 +137,31 @@ SubstanceImporter:
         second:
           texture: {instanceID: 0}
           scale: {x: 3, y: 3}
-          offset: {x: 0, y: 0}
+          offset: {x: 0.5, y: 0.5}
       - first:
           name: _MainTex
         second:
           texture: {instanceID: 0}
           scale: {x: 3, y: 3}
-          offset: {x: 0, y: 0}
+          offset: {x: 0.5, y: 0.5}
       - first:
           name: _MetallicGlossMap
         second:
           texture: {instanceID: 0}
           scale: {x: 3, y: 3}
-          offset: {x: 0, y: 0}
+          offset: {x: 0.5, y: 0.5}
       - first:
           name: _OcclusionMap
         second:
           texture: {instanceID: 0}
           scale: {x: 3, y: 3}
-          offset: {x: 0, y: 0}
+          offset: {x: 0.5, y: 0.5}
       - first:
           name: _ParallaxMap
         second:
           texture: {instanceID: 0}
           scale: {x: 3, y: 3}
-          offset: {x: 0, y: 0}
+          offset: {x: 0.5, y: 0.5}
       floats:
       - first:
           name: _BumpScale
