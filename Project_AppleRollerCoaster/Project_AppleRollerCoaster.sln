@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_AppleRollerCoaster.CSharp", "Project_AppleRollerCoaster.CSharp.csproj", "{7E7BDC7C-59F7-5F53-0EDF-10A3645EF846}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_AppleRollerCoaster.CSharp.Editor", "Project_AppleRollerCoaster.CSharp.Editor.csproj", "{37ECB72D-A0E9-2291-EB46-11A908E02494}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E7BDC7C-59F7-5F53-0EDF-10A3645EF846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E7BDC7C-59F7-5F53-0EDF-10A3645EF846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E7BDC7C-59F7-5F53-0EDF-10A3645EF846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E7BDC7C-59F7-5F53-0EDF-10A3645EF846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37ECB72D-A0E9-2291-EB46-11A908E02494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37ECB72D-A0E9-2291-EB46-11A908E02494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37ECB72D-A0E9-2291-EB46-11A908E02494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37ECB72D-A0E9-2291-EB46-11A908E02494}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
